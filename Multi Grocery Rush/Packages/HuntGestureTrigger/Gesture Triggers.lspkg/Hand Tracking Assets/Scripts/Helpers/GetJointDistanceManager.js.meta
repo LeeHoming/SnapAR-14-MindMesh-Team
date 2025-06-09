@@ -1,0 +1,63 @@
+- !<AssetImportMetadata/a38fef10-769e-8434-8a8d-97d82de135a2>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> b1f8c052-6b77-4e53-907a-7e8e9e93c5f3
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> b1f8c052-6b77-4e53-907a-7e8e9e93c5f3
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 2b6f4603-b85b-402a-b43e-06229319bbfb
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<ScriptAssetData/2b6f4603-b85b-402a-b43e-06229319bbfb>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 5e969d30-a34a-4762-a405-79df3ef305ed
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    defaultColor: false
+    gestureDetectedTrigger: false
+    gestureLostTrigger: false
+    jointDistanceScripts: false
+    logMessage: false
+    overwriteVisual: false
+    passColor: false
+    scriptContainer: false
+    sendTriggers: false
+    setTextColor: false
+    showVisualizer: false
+    useContainer: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - useContainer: false
+      scriptContainer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      jointDistanceScripts: !<reference.ScriptComponent[]>
+        []
+      overwriteVisual: false
+      showVisualizer: false
+      setTextColor: false
+      defaultColor: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      passColor: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      sendTriggers: false
+      gestureDetectedTrigger: ""
+      gestureLostTrigger: ""
+      logMessage: false
+  ScriptTypes:
+    -
+      {}
+  SetupScript:
+    code: ""
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

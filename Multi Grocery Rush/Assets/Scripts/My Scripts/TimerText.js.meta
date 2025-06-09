@@ -1,0 +1,46 @@
+- !<AssetImportMetadata/0f873ad7-0076-48f5-98a0-12c5b2022b94>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 4e83239d-fa56-4502-9364-559115e010ea
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 4e83239d-fa56-4502-9364-559115e010ea
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> e8c98a9c-23d4-43d9-b5fe-b41fb08141e6
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/e8c98a9c-23d4-43d9-b5fe-b41fb08141e6>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: f7187b2d-74d6-4022-bb45-86c60e74de12
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    isCountdown: false
+    startTime: false
+    startTimer: false
+    textComponent: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - textComponent: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      startTime: 60
+      isCountdown: true
+      startTimer: false
+  ScriptTypes:
+    -
+      {}
