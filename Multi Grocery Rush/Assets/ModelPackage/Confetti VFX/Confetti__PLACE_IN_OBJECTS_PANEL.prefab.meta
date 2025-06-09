@@ -1,0 +1,56 @@
+- !<AssetImportMetadata/b433d322-2d79-1c5c-1df4-39ed72c7713e>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> ffa2b21a-febe-4fb1-9cb1-3f5cb0bef11d
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> ffa2b21a-febe-4fb1-9cb1-3f5cb0bef11d
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> fec9542d-85ba-4e58-958c-392a79a5cc3d
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefab/06932481-dfe1-4320-a101-e4d310c6cab9>
+  PackagePath: Confetti__PLACE_IN_OBJECTS_PANEL
+  objects:
+    - !<own> 0cfa1cf9-534d-4209-b680-abf9a70b13ed
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/0cfa1cf9-534d-4209-b680-abf9a70b13ed>
+  PrefabRemaps:
+    []
+  Name: Confetti__PLACE_IN_OBJECTS_PANEL
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 869a8f10-9ce3-451c-93e1-cbfa008876ee
+- !<VFXComponent/869a8f10-9ce3-451c-93e1-cbfa008876ee>
+  PrefabRemaps:
+    []
+  Name: VFX
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> 2f46f062-2609-4605-97e2-6b078d1cee69
+- !<ObjectPrefabAssetData/fec9542d-85ba-4e58-958c-392a79a5cc3d>
+  SourceRemaps:
+    - 651f6de8-7396-4971-be51-9c94ecfce487: 0cfa1cf9-534d-4209-b680-abf9a70b13ed
+    - ce97b07c-6d6c-4b7f-ab92-21532c0d0b60: 869a8f10-9ce3-451c-93e1-cbfa008876ee
+    - ffa2b21a-febe-4fb1-9cb1-3f5cb0bef11d: 06932481-dfe1-4320-a101-e4d310c6cab9
+  SourceState: !<own> 06932481-dfe1-4320-a101-e4d310c6cab9

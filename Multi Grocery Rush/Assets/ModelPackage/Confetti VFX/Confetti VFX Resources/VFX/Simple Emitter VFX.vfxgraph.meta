@@ -1,0 +1,61 @@
+- !<AssetImportMetadata/70758904-e657-eed1-2956-23cf317ed806>
+  ImportedAssetIds:
+    VFXGraph: !<reference> 2f46f062-2609-4605-97e2-6b078d1cee69
+  ImporterName: VFXAssetImporter
+  PrimaryAsset: !<reference> 2f46f062-2609-4605-97e2-6b078d1cee69
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    VFXGraph: !<own> e186cfc4-af91-4488-a45c-a1faf9f5ef02
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<VFXAssetData/e186cfc4-af91-4488-a45c-a1faf9f5ef02>
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  SystemPassProperties:
+    39: !<VFXSystemPassProperties/4de33009-fad7-4bf4-b066-0f65c6e59015>
+      FeedbackProperties:
+        {}
+      SimulateProperties:
+        emissionRadius:
+          typeIdx: 1
+          value: 3.000000
+        forceStrength:
+          typeIdx: 1
+          value: 1.430000
+        spread:
+          typeIdx: 1
+          value: 0.310000
+        rotationSpeed:
+          typeIdx: 1
+          value: 0.400000
+        sizeMinMax:
+          typeIdx: 3
+          value: {x: 1.000000, y: 2.000000}
+        colorA:
+          typeIdx: 5
+          value: {x: 1.000000, y: 0.901961, z: 0.258824, w: 1.000000}
+        colorB:
+          typeIdx: 5
+          value: {x: 0.276524, y: 0.668772, z: 0.998703, w: 1.000000}
+        colorC:
+          typeIdx: 5
+          value: {x: 0.576226, y: 0.209125, z: 0.804593, w: 1.000000}
+        colorD:
+          typeIdx: 5
+          value: {x: 0.986114, y: 0.000000, z: 0.137942, w: 1.000000}
+        colorE:
+          typeIdx: 5
+          value: {x: 0.992157, y: 0.490196, z: 0.094118, w: 1.000000}
+      RenderProperties:
+        {}
+      FeedbackDefines:
+        []
+      SimulateDefines:
+        []
+      RenderDefines:
+        []

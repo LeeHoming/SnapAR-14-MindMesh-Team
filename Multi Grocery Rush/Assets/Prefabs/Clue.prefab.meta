@@ -1,0 +1,197 @@
+- !<AssetImportMetadata/a2972602-b07d-41e9-ab93-9246917c81d4>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 93ae396b-f4c4-439e-8471-c4cb7ff56d4b
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 93ae396b-f4c4-439e-8471-c4cb7ff56d4b
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 504ac05e-1980-4abe-b254-efcf3a2d6760
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/11f62c33-8c76-4cbe-b39b-305d71bdc66c>
+  PrefabRemaps:
+    []
+  Name: Clue 0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 6.201890, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1a8dcd7c-ce8e-4e7a-8ae5-53a1fa00a674
+    - !<own> 5fae3107-4535-4ec4-b585-654a0445eac1
+- !<Text/1a8dcd7c-ce8e-4e7a-8ae5-53a1fa00a674>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Top
+  HorizontalAlignment: Left
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Text: Two crossed palm trees mark the tastiest secret in California. Two patties
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 36
+  Font: !<reference> 9f1fd4d2-9099-464e-bb02-77e52c60c2c3
+  LayoutRect:
+    left: -5.500000
+    bottom: -20.000000
+    right: 5.500000
+    top: 0.000000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Wrap
+  Fill: !<TextFill>
+    Mode: Solid
+    Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
+  Outline: !<OutlineSettings>
+    Enabled: true
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Size: 0.020000
+  Dropshadow: !<DropshadowSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    OffsetX: 0.250000
+    OffsetY: 0.250000
+  Background: !<BackgroundSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Margins:
+      left: 0.000000
+      bottom: 0.000000
+      right: 0.000000
+      top: 0.000000
+    CornerRadius: 0.000000
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 0.780000
+    CapitalizationOverride: None
+  DepthTest: false
+  TwoSided: false
+- !<ObjectPrefab/3cc6d06f-333f-46ca-8e08-cabe1a84375a>
+  PackagePath: ""
+  objects:
+    - !<own> 11f62c33-8c76-4cbe-b39b-305d71bdc66c
+  LazyLoading: false
+  RetainAssets: true
+- !<ObjectPrefabAssetData/504ac05e-1980-4abe-b254-efcf3a2d6760>
+  SourceRemaps:
+    - 3280974b-c50a-4896-94f3-7cd98d27d360: 1a8dcd7c-ce8e-4e7a-8ae5-53a1fa00a674
+    - 93ae396b-f4c4-439e-8471-c4cb7ff56d4b: 3cc6d06f-333f-46ca-8e08-cabe1a84375a
+    - ad937522-d647-488d-bf6d-1b76e969bc6f: 11f62c33-8c76-4cbe-b39b-305d71bdc66c
+    - c33b801b-29f4-4bcf-9713-67e4f4f72f9d: 5fae3107-4535-4ec4-b585-654a0445eac1
+  SourceState: !<own> 3cc6d06f-333f-46ca-8e08-cabe1a84375a
+- !<Text/5fae3107-4535-4ec4-b585-654a0445eac1>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: false
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Top
+  HorizontalAlignment: Left
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Text: "“I miss so many small things. I wish I had photos of them… Would you find them for me?”"
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 39
+  Font: !<reference> 9f1fd4d2-9099-464e-bb02-77e52c60c2c3
+  LayoutRect:
+    left: -5.500000
+    bottom: -20.000000
+    right: 5.500000
+    top: 0.000000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Wrap
+  Fill: !<TextFill>
+    Mode: Solid
+    Color: {x: 1.000000, y: 0.949020, z: 0.741176, w: 1.000000}
+    Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
+  Outline: !<OutlineSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Size: 0.250000
+  Dropshadow: !<DropshadowSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    OffsetX: 0.250000
+    OffsetY: 0.250000
+  Background: !<BackgroundSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Margins:
+      left: 0.000000
+      bottom: 0.000000
+      right: 0.000000
+      top: 0.000000
+    CornerRadius: 0.000000
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 0.780000
+    CapitalizationOverride: None
+  DepthTest: false
+  TwoSided: false
