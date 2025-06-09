@@ -1,0 +1,956 @@
+- !<ObjectPrefab/6e4d0e3e-dda5-4b52-9bc3-f88c24891ae9>
+  PackagePath: ""
+  objects:
+    - !<own> e05e8f86-565f-4618-84a3-06f884972ee0
+  LazyLoading: false
+  RetainAssets: true
+- !<Text3D/0686e3e7-4772-4db5-977d-3a0431dfaf55>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 2
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> aa6acd30-f34f-4b76-b8d2-46f05f0ff576
+  Text: Text3D
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 100
+  ExtrusionDepth: 1.000000
+  ExtrudeDirection: Forwards
+  Font: !<reference> ae3160d5-f23d-4b44-85d8-8f1c35464213
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  EnableBatching: false
+- !<SceneObject/07843863-de02-40ee-8d7f-7b1325ddda8c>
+  PrefabRemaps:
+    []
+  Name: Text3D Object 4
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 14.079304, z: 0.000000}
+    rotation: {x: -5.000000, y: -5.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f7c4bacb-c169-4a12-9a68-e169611c1f83
+- !<Text3D/07e23164-ade4-4133-9af2-6c8aad618fee>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 11
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e8dde521-1cca-42ff-aa78-b461cb2a81da
+  Text: Text3D
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 100
+  ExtrusionDepth: 1.000000
+  ExtrudeDirection: Forwards
+  Font: !<reference> ce05e866-3f11-4b83-802d-25f778cd687e
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  EnableBatching: false
+- !<Text3D/1338dbdb-b892-4188-90ee-d66089f5e062>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 8
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1451cc86-d3f9-4347-8362-b76ad3fce7e5
+  Text: Text3D
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 100
+  ExtrusionDepth: 1.000000
+  ExtrudeDirection: Forwards
+  Font: !<reference> 37cce6b8-40ce-49f1-a612-52eea11e1451
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  EnableBatching: false
+- !<SceneObject/1b9e933b-2c9e-449b-ade7-1b868cced99e>
+  PrefabRemaps:
+    []
+  Name: Text3D Object 3
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 16.079304, z: 0.000000}
+    rotation: {x: -5.000000, y: -5.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0686e3e7-4772-4db5-977d-3a0431dfaf55
+- !<Text3D/1f83f0f0-4356-470e-a224-380805b708d7>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 10
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5cd3261b-ee6a-45d9-948f-19b034a4b091
+  Text: Text3D
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 100
+  ExtrusionDepth: 1.000000
+  ExtrudeDirection: Forwards
+  Font: !<reference> f6ccceeb-29c3-4899-b685-6b1963b28900
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  EnableBatching: false
+- !<SceneObject/2245d01b-447a-4e69-a47a-02e0c3d998de>
+  PrefabRemaps:
+    []
+  Name: Text3D Object 10
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 2.079303, z: 0.000000}
+    rotation: {x: -5.000000, y: -5.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> fe395e5b-8802-444a-89aa-8d531734245a
+- !<SceneObject/2d708061-20ab-4ddc-ab6d-a4bcc4db619c>
+  PrefabRemaps:
+    []
+  Name: Text3D Object 18
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -17.920696, z: 0.000000}
+    rotation: {x: -5.000000, y: -5.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 84be2858-7755-45fb-af16-56e05d80bf78
+- !<SceneObject/3214b4e7-4084-4d7a-a8ec-fed1ce63bcd4>
+  PrefabRemaps:
+    []
+  Name: Text3D Object 13
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -4.920697, z: 0.000000}
+    rotation: {x: -5.000000, y: -5.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ae8deecc-47c7-417e-8d33-66f7da540e4f
+- !<Text3D/3482d647-dce6-44ab-b70f-d8109fc68d0a>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 14
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ef81447b-dbf4-4396-b996-ca3f9d11e2f7
+  Text: Text3D
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 100
+  ExtrusionDepth: 1.000000
+  ExtrudeDirection: Forwards
+  Font: !<reference> ae3160d5-f23d-4b44-85d8-8f1c35464213
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  EnableBatching: false
+- !<Text3D/367f6e8d-d3fd-41a2-a2a8-ad9dd3963cec>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 16
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 6dba478c-b48e-437f-8ac4-5c339ba42d3e
+  Text: Text3D
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 100
+  ExtrusionDepth: 1.000000
+  ExtrudeDirection: Forwards
+  Font: !<reference> ab537495-59f5-41bb-818e-9d3137f8d2df
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  EnableBatching: false
+- !<Text3D/36943ddf-a8f0-4a8f-bf6c-dc8b8b3ebfaf>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 6
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1f116f8f-b638-4a1d-8685-a764ae6a30fc
+  Text: Text3D
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 100
+  ExtrusionDepth: 1.000000
+  ExtrudeDirection: Forwards
+  Font: !<reference> b1dd9ca2-aac8-4635-9da8-b85b85de5594
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  EnableBatching: false
+- !<SceneObject/3dae480a-af65-469b-9e53-a9abf1ad8513>
+  PrefabRemaps:
+    []
+  Name: Text3D Object 8
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 6.079304, z: 0.000000}
+    rotation: {x: -5.000000, y: -5.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8bb91884-cc19-437c-8661-ed630895c70e
+- !<Text3D/413edecf-52c5-41d9-a1f3-634d6ed95ff4>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 3c6280fd-a502-4880-bc3f-c397666d740d
+  Text: Text3D
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 100
+  ExtrusionDepth: 1.000000
+  ExtrudeDirection: Forwards
+  Font: !<reference> a997982d-b6d4-463c-a2de-914e7a98be97
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  EnableBatching: false
+- !<SceneObject/46d1b961-b0a5-4994-8f39-4dbdec1aa0b7>
+  PrefabRemaps:
+    []
+  Name: Text3D Object 17
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -14.920697, z: 0.000000}
+    rotation: {x: -5.000000, y: -5.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 367f6e8d-d3fd-41a2-a2a8-ad9dd3963cec
+- !<Text3D/60ce4a4a-1c6c-43da-ac53-6e5ab24bc154>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 5
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 81e27945-3231-4de9-814f-3aa332efda65
+  Text: Text3D
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 100
+  ExtrusionDepth: 1.000000
+  ExtrudeDirection: Forwards
+  Font: !<reference> ab537495-59f5-41bb-818e-9d3137f8d2df
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  EnableBatching: false
+- !<SceneObject/6184b9e9-42af-4a44-8d68-25d5f47b1980>
+  PrefabRemaps:
+    []
+  Name: Text3D Object 7
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 8.079304, z: 0.000000}
+    rotation: {x: -5.000000, y: -5.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 36943ddf-a8f0-4a8f-bf6c-dc8b8b3ebfaf
+- !<Text3D/65df18f6-de9f-41eb-8a50-c8c0449188b1>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 13
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 179a7ef6-e83e-45d8-bba4-20b804592a8f
+  Text: Text3D
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 100
+  ExtrusionDepth: 1.000000
+  ExtrudeDirection: Forwards
+  Font: !<reference> ae1836f2-7b2e-416c-acc8-fef6be1949c5
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  EnableBatching: false
+- !<SceneObject/68abf8f8-d9fe-4321-91da-f3f2954c000d>
+  PrefabRemaps:
+    []
+  Name: Text3D Object 16
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -12.920696, z: 0.000000}
+    rotation: {x: -5.000000, y: -5.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c48408a3-51b5-433b-8f6d-274344b8ddf2
+- !<SceneObject/7c466004-05b6-4f99-a7db-e5cd9b007c4d>
+  PrefabRemaps:
+    []
+  Name: Text3D Object 11
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.079303, z: 0.000000}
+    rotation: {x: -5.000000, y: -5.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1f83f0f0-4356-470e-a224-380805b708d7
+- !<Text3D/84be2858-7755-45fb-af16-56e05d80bf78>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 17
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 63b4542d-d903-432e-950e-d8f69401a1e7
+  Text: Text3D
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 100
+  ExtrusionDepth: 1.000000
+  ExtrudeDirection: Forwards
+  Font: !<reference> 37cce6b8-40ce-49f1-a612-52eea11e1451
+  LayoutRect:
+    left: -7.500000
+    bottom: -3.322178
+    right: 7.721734
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  EnableBatching: false
+- !<Text3D/8bb91884-cc19-437c-8661-ed630895c70e>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 7
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 48b1ccff-f8dc-4b33-ab13-c21ddc87ad1e
+  Text: Text3D
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 100
+  ExtrusionDepth: 1.000000
+  ExtrudeDirection: Forwards
+  Font: !<reference> ce05e866-3f11-4b83-802d-25f778cd687e
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  EnableBatching: false
+- !<Text3D/8c630e1e-72b1-4c37-b5e3-0b827dc20261>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 97a0e738-9973-490b-bab5-6510f4d643d8
+  Text: Text3D
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 100
+  ExtrusionDepth: 1.000000
+  ExtrudeDirection: Forwards
+  Font: !<reference> f6ccceeb-29c3-4899-b685-6b1963b28900
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  EnableBatching: false
+- !<SceneObject/a852e67a-4bad-43d9-b2a7-fe9bab26e6b7>
+  PrefabRemaps:
+    []
+  Name: Text3D Object 15
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -10.420696, z: 0.000000}
+    rotation: {x: -5.000000, y: -5.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3482d647-dce6-44ab-b70f-d8109fc68d0a
+- !<Text3D/ae8deecc-47c7-417e-8d33-66f7da540e4f>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 12
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 41395dc3-76eb-4c24-8e11-f6dd59003d57
+  Text: Text3D
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 100
+  ExtrusionDepth: 1.000000
+  ExtrudeDirection: Forwards
+  Font: !<reference> a997982d-b6d4-463c-a2de-914e7a98be97
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  EnableBatching: false
+- !<SceneObject/b48bdb19-5522-4406-a376-5ad87c21631f>
+  PrefabRemaps:
+    []
+  Name: Text3D Object
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 20.079304, z: 0.000000}
+    rotation: {x: -5.000000, y: -5.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8c630e1e-72b1-4c37-b5e3-0b827dc20261
+- !<SceneObject/b94ebc0a-d0b1-4ce6-86a6-f0adfbe9c509>
+  PrefabRemaps:
+    []
+  Name: Text3D Object 9
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 4.079303, z: 0.000000}
+    rotation: {x: -5.000000, y: -5.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1338dbdb-b892-4188-90ee-d66089f5e062
+- !<SceneObject/ba97cbb0-8d92-4c6a-aa6c-495d5fb10da8>
+  PrefabRemaps:
+    []
+  Name: Text3D Object 2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 18.079304, z: 0.000000}
+    rotation: {x: -5.000000, y: -5.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 413edecf-52c5-41d9-a1f3-634d6ed95ff4
+- !<SceneObject/c3ecf3fa-b5a2-4cae-9dfc-5d1fb1fc486c>
+  PrefabRemaps:
+    []
+  Name: Text3D Object 5
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 12.079304, z: 0.000000}
+    rotation: {x: -5.000000, y: -5.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c6f8e268-70e3-479e-880c-6b8d88eea587
+- !<Text3D/c48408a3-51b5-433b-8f6d-274344b8ddf2>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 15
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> bfcb0a3d-68ea-4368-ba06-16919c14295a
+  Text: Text3D
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 100
+  ExtrusionDepth: 1.000000
+  ExtrudeDirection: Forwards
+  Font: !<reference> b1dd9ca2-aac8-4635-9da8-b85b85de5594
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  EnableBatching: false
+- !<Text3D/c6f8e268-70e3-479e-880c-6b8d88eea587>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 4
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b07e7efa-90f7-47ca-b343-c84aaa9a4cdd
+  Text: Text3D
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 100
+  ExtrusionDepth: 1.000000
+  ExtrudeDirection: Forwards
+  Font: !<reference> 4f3e690f-cd5d-4032-b0a4-bd5913d6d652
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  EnableBatching: false
+- !<SceneObject/d317520c-2129-40d8-a61f-c15a3804ae2d>
+  PrefabRemaps:
+    []
+  Name: Text3D Object 14
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -7.920697, z: 0.000000}
+    rotation: {x: -5.000000, y: -5.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 65df18f6-de9f-41eb-8a50-c8c0449188b1
+- !<SceneObject/e05e8f86-565f-4618-84a3-06f884972ee0>
+  PrefabRemaps:
+    []
+  Name: 3D Text Styles PLACE_IN_OBJECTS_PANEL
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.800000, y: 0.800000, z: 0.800000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> b48bdb19-5522-4406-a376-5ad87c21631f
+    - !<own> ba97cbb0-8d92-4c6a-aa6c-495d5fb10da8
+    - !<own> 1b9e933b-2c9e-449b-ade7-1b868cced99e
+    - !<own> 07843863-de02-40ee-8d7f-7b1325ddda8c
+    - !<own> c3ecf3fa-b5a2-4cae-9dfc-5d1fb1fc486c
+    - !<own> ed323d53-a006-4b9d-8ae5-73114e4e5cbb
+    - !<own> 6184b9e9-42af-4a44-8d68-25d5f47b1980
+    - !<own> 3dae480a-af65-469b-9e53-a9abf1ad8513
+    - !<own> b94ebc0a-d0b1-4ce6-86a6-f0adfbe9c509
+    - !<own> 2245d01b-447a-4e69-a47a-02e0c3d998de
+    - !<own> 7c466004-05b6-4f99-a7db-e5cd9b007c4d
+    - !<own> eb0be240-cf84-4314-b884-dbece5f4660c
+    - !<own> 3214b4e7-4084-4d7a-a8ec-fed1ce63bcd4
+    - !<own> d317520c-2129-40d8-a61f-c15a3804ae2d
+    - !<own> a852e67a-4bad-43d9-b2a7-fe9bab26e6b7
+    - !<own> 68abf8f8-d9fe-4321-91da-f3f2954c000d
+    - !<own> 46d1b961-b0a5-4994-8f39-4dbdec1aa0b7
+    - !<own> 2d708061-20ab-4ddc-ab6d-a4bcc4db619c
+  Components:
+    []
+- !<SceneObject/eb0be240-cf84-4314-b884-dbece5f4660c>
+  PrefabRemaps:
+    []
+  Name: Text3D Object 12
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -1.920697, z: 0.000000}
+    rotation: {x: -5.000000, y: -5.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 07e23164-ade4-4133-9af2-6c8aad618fee
+- !<SceneObject/ed323d53-a006-4b9d-8ae5-73114e4e5cbb>
+  PrefabRemaps:
+    []
+  Name: Text3D Object 6
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 10.079303, z: 0.000000}
+    rotation: {x: -5.000000, y: -5.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 60ce4a4a-1c6c-43da-ac53-6e5ab24bc154
+- !<Text3D/f7c4bacb-c169-4a12-9a68-e169611c1f83>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 3
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 05e39f5f-5395-4fe9-9618-a1ee236e7f86
+  Text: Text3D
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 100
+  ExtrusionDepth: 1.000000
+  ExtrudeDirection: Forwards
+  Font: !<reference> b1dd9ca2-aac8-4635-9da8-b85b85de5594
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  EnableBatching: false
+- !<Text3D/fe395e5b-8802-444a-89aa-8d531734245a>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 9
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e3de3da8-3e4b-419c-a83d-f41bd035779f
+  Text: Text3D
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 100
+  ExtrusionDepth: 1.000000
+  ExtrudeDirection: Forwards
+  Font: !<reference> ae1836f2-7b2e-416c-acc8-fef6be1949c5
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  EnableBatching: false

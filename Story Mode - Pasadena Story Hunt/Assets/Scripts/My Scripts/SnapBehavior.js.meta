@@ -1,0 +1,50 @@
+- !<AssetImportMetadata/ee42e691-f26f-4ce4-aaa6-0e4d1e3226bc>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 45f487ff-2afc-4687-a359-4e7c9d41da35
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 45f487ff-2afc-4687-a359-4e7c9d41da35
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> a06c79bf-9cb3-4f44-8481-3f1ea69119ab
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/a06c79bf-9cb3-4f44-8481-3f1ea69119ab>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 1e5e7510-0b82-4f25-b55e-5c6e5665b19b
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    SnapTriggerMessage: false
+    TargetHideMessage: false
+    TargetShowMessage: false
+    distanceThreshold: false
+    grabBehaviorScript: false
+    targetObject: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      distanceThreshold: !<float> 50.000000
+      grabBehaviorScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      SnapTriggerMessage: ""
+      TargetShowMessage: ""
+      TargetHideMessage: ""
+  ScriptTypes:
+    -
+      {}
