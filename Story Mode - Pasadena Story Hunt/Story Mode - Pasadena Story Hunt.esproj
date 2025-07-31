@@ -24,7 +24,7 @@ metaInfo:
     []
   tags:
     []
-  lensName: CropExample
+  lensName: SnapSeek-Pasadena
   lensDescriptors:
     - EXPERIMENTAL_API
   lensApplicability:
@@ -33,7 +33,7 @@ metaInfo:
   lensClientCompatibilities:
     - Spectacles
   platformBundlesEnabled: false
-  iconHash: ""
+  iconHash: ca6a7119335a186fb0d88f9b8d2df6fa
   videoPreviewHash: ""
   fromTemplateName: Default
   fromTemplateUrl: Lens Studio 5.4.0.24110404

@@ -17,6 +17,7 @@ export class PictureBehavior extends BaseScriptComponent {
   @input chatGPT: ChatGPT;
   @input caption: CaptionBehavior;
 
+
   private isEditor = global.deviceInfoSystem.isEditor();
 
   private camTrans: Transform;
@@ -113,12 +114,12 @@ export class PictureBehavior extends BaseScriptComponent {
   };
 
   private loadCaption(text: string) {
-    //position caption 5cm above top of box formed by circles
-    var topCenterPos = this.circleTrans[0]
+    //position caption below bottom of box formed by circles
+    var bottomCenterPos = this.circleTrans[2]
       .getWorldPosition()
-      .add(this.circleTrans[1].getWorldPosition())
+      .add(this.circleTrans[3].getWorldPosition())
       .uniformScale(0.5);
-    var captionPos = topCenterPos.add(this.picAnchorTrans.up.uniformScale(1)); //1.5
+    var captionPos = bottomCenterPos.add(this.picAnchorTrans.up.uniformScale(-1)); //1.5
     var captionRot = this.picAnchorTrans.getWorldRotation();
     this.caption.openCaption(text, captionPos, captionRot);
   }

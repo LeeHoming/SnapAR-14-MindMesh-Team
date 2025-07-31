@@ -26,6 +26,8 @@
   CurrentVisibility: Editable
   MaxVisibility: Editable
   ScriptInputsHidden:
+    addRandom: false
+    captionOffset: false
     captionText: false
     scaleObj: false
   ScriptTypesHidden:
@@ -33,12 +35,16 @@
   DefaultScriptInputs:
     - captionText: !<reference.Text> 00000000-0000-0000-0000-000000000000
       scaleObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      captionOffset: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      addRandom: false
   ScriptTypes:
     -
       {}
   InputLines:
     - // @input Component.Text captionText
     - // @input SceneObject scaleObj
+    - // @input vec3 captionOffset
+    - // @input bool addRandom
   SetupScript:
     code: ""
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
