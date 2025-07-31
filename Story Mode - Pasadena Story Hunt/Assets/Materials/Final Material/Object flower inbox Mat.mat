@@ -150,7 +150,7 @@
     Tweak_N31:
       typeIdx: 9
       value:
-        id: f1654f04-ac2d-4f6e-acfa-d51240779578
+        id: e5f5dbd2-8949-45da-96fa-143141cb3d56
         sampler:
           filteringMode: Trilinear
           wrapModeU: Repeat
@@ -176,11 +176,11 @@
       value: 0.000000
     metallic:
       typeIdx: 1
-      value: 0.000000
+      value: 1.000000
     noiseFrequency:
       typeIdx: 1
-      value: 0.500000
+      value: 0.050000
     roughness:
       typeIdx: 1
-      value: 0.790000
+      value: 0.100000
   Pass: !<reference> 515c992c-ec5b-49a4-807e-ea14d0ed9dd8

@@ -150,7 +150,7 @@
     Tweak_N31:
       typeIdx: 9
       value:
-        id: 6aa9e63d-3ba0-450c-9003-4a82954c3926
+        id: 80bbad7b-cf38-4555-88a3-c9d92b45cf6d
         sampler:
           filteringMode: Trilinear
           wrapModeU: Repeat
@@ -170,7 +170,7 @@
       value: 0.440000
     disintegrate:
       typeIdx: 1
-      value: 1.000000
+      value: 0.000000
     ghostAlpha:
       typeIdx: 1
       value: 0.000000

@@ -2387,7 +2387,7 @@
   PrefabRemaps:
     []
   Name: model.001
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.002150}
@@ -2411,8 +2411,8 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> d7300b14-ca70-434f-823b-6fa5c9a082f7
-  Mesh: !<reference> f445d126-4c3c-4d98-a251-462f942ff440
+    - !<reference> 8ae43f8d-2d0a-4daf-ab03-4cdbf25d9f34
+  Mesh: !<reference> 9c98e9c0-6e3b-451b-b3ac-4896b05b952a
   Skin: !<reference> 00000000-0000-0000-0000-000000000000
   BlendShapesEnabled: true
   BlendNormals: false
@@ -4229,7 +4229,7 @@
       type: 1
       movementType: 0
       start: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      end: !<Vec3> {x: 20.000000, y: 20.000000, z: 20.000000}
+      end: !<Vec3> {x: 0.180000, y: 0.180000, z: 0.180000}
       from: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
       to: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
       offset: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -5880,7 +5880,7 @@
   MeshShadowMode: None
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
-  Text: Pasadena City Hall
+  Text: Lucky Cat
   Editable: false
   ShowEditingPreview: true
   TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
@@ -5896,7 +5896,7 @@
   OverflowHorizontal: Overflow
   Fill: !<TextFill>
     Mode: Solid
-    Color: {x: 1.000000, y: 0.945098, z: 0.635294, w: 1.000000}
+    Color: {x: 0.654902, y: 0.972549, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
@@ -5977,8 +5977,8 @@
 - !<SceneObject/144dd89a-ee81-4f3f-b59c-4fb0b131bd6d>
   PrefabRemaps:
     []
-  Name: Palm Open Right
-  Enabled: false
+  Name: Finger Pinch
+  Enabled: true
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -5986,15 +5986,7 @@
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:
-    - !<own> e198a53e-aae8-42c8-8c6a-ca8d2a9dfc5c
-    - !<own> 4135e129-0ed7-4631-96de-f9ecd319e9a7
-    - !<own> 33bbcaa0-7369-477b-b879-c3218132e889
     - !<own> af306ea2-22e4-4fd9-9a1f-937643c56654
-    - !<own> d486b1e8-d0e1-42a6-b10e-65f652091921
-    - !<own> 61b3e645-ef54-4ee9-87a3-d97acb6b578c
-    - !<own> ea951a52-1558-4b89-9822-d89a8aaa583a
-    - !<own> a37b5b7a-b40e-4962-872a-37b71b501e5c
-    - !<own> b5650e40-bc28-43c4-9826-9b48cdd16e25
   Components:
     - !<own> 66f8de9f-ef45-409d-951e-ce13b9b9f407
 - !<SceneObject/148d28c8-e0a3-4ce9-b6dd-4e40c01a11d3>
@@ -6131,6 +6123,22 @@
   ForceCompound: false
   Intangible: false
   ShowCollider: false
+- !<ScriptComponent/15e1ad47-a9e1-48d9-9c90-2de1174a4270>
+  PrefabRemaps:
+    []
+  Name: debugTrigger
+  Enabled: true
+  ScriptAsset: !<reference> b48e3ed9-811c-49db-9a8e-eaaacfaf2152
+  ScriptInputsDefault:
+    triggerPrefix: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      triggerPrefix: find_keyword_
+  ScriptTypes:
+    "":
+      {}
 - !<ScriptComponent/16b39f42-fffe-43fc-8b0d-45571536ac57>
   PrefabRemaps:
     []
@@ -6806,6 +6814,21 @@
     - !<own> 561867b3-abd2-4a53-9958-266e3d7cf66f
   Components:
     []
+- !<SceneObject/177077a9-064f-4342-b840-36bb208483af>
+  PrefabRemaps:
+    []
+  Name: KeyboardDebugTrigger
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 15e1ad47-a9e1-48d9-9c90-2de1174a4270
 - !<SceneObject/17751d9d-b716-4167-9891-cc2ede70a719>
   PrefabRemaps:
     - 06dc1be2-9c36-432e-a7a7-6ee9ebaf3c1b: 233f784e-f7f4-4ec2-8144-c6013ea08836
@@ -6825,8 +6848,8 @@
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: -13.740531, z: -42.599274}
-    rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 20.000000, y: 20.000000, z: 20.000000}
+    rotation: {x: 4.171459, y: -0.000000, z: 0.000000}
+    scale: {x: 10.000000, y: 9.999999, z: 9.999999}
     hasSegmentScaleCompensation: false
   Children:
     - !<own> 6bf2770e-56e0-489c-86fe-11c9e29c2935
@@ -7475,40 +7498,6 @@
     - !<own> 9adfce69-b3f7-4e49-b42a-a87ad5357849
   Components:
     []
-- !<ScriptComponent/18e738cf-c83f-4191-93c2-59fcb40a8b18>
-  PrefabRemaps:
-    []
-  Name: GetJointDistance
-  Enabled: true
-  ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
-  ScriptInputsDefault:
-    checkType: true
-    targetObject: true
-    maxDistance: true
-    sendTriggers: true
-    enterRangeTrigger: true
-    exitRangeTrigger: true
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      handType: 2
-      checkType: 0
-      jointGroupA: !<string[]>
-        - ring-3
-      jointGroupB: !<string[]>
-        - pinky-3
-      targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      visualizeDistance: true
-      checkDistance: true
-      minDistance: !<float> 3.000000
-      maxDistance: !<float> 100.000000
-      sendTriggers: false
-      enterRangeTrigger: ""
-      exitRangeTrigger: ""
-  ScriptTypes:
-    "":
-      {}
 - !<SceneObject/192a2a7b-0e89-473a-ad0c-c4285282dc3f>
   PrefabRemaps:
     []
@@ -7562,7 +7551,7 @@
   Enabled: true
   Shape: !<Sphere>
     FitVisual: false
-    Radius: 0.500000
+    Radius: 10.000000
   Matter: !<reference> 00000000-0000-0000-0000-000000000000
   Filter: !<reference> 00000000-0000-0000-0000-000000000000
   OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
@@ -7572,7 +7561,7 @@
   RotationTension: 30.000000
   ForceCompound: false
   Intangible: false
-  ShowCollider: false
+  ShowCollider: true
 - !<SceneObject/1b02df50-3175-466a-a696-40a47ab6312a>
   PrefabRemaps:
     []
@@ -9922,7 +9911,7 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 5.185101, y: -4.316861, z: 0.000000}
+    position: {x: 5.015038, y: -6.917454, z: 0.000000}
     rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
@@ -11287,7 +11276,7 @@
   ShadowDensity: 1.000000
   Materials:
     - !<reference> 7c23b8e5-8f7c-465d-8004-e41a4b688fed
-  Mesh: !<reference> 9540f9f5-53a8-4aa2-8475-db77d351f12b
+  Mesh: !<reference> a71b0c62-2a5d-4243-bbdf-42e1c378a83d
   Skin: !<reference> 00000000-0000-0000-0000-000000000000
   BlendShapesEnabled: true
   BlendNormals: false
@@ -11371,6 +11360,7 @@
     - !<own> efdf5dc6-cf49-4f17-b76c-0b5d996a886a
     - !<own> befde9b1-ae24-4f0b-98dc-21db9cc71aad
     - !<own> 7de1572c-938b-4074-a020-59e171e435ff
+    - !<own> 177077a9-064f-4342-b840-36bb208483af
   Components:
     []
 - !<SceneObject/2fcb320e-50bd-4b31-8162-8bb803b92998>
@@ -11677,7 +11667,7 @@
   LocalTransform:
     position: {x: -2.491731, y: 3.805924, z: 7.259048}
     rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 8.000000, y: 8.000000, z: 8.000000}
+    scale: {x: 0.050000, y: 0.050000, z: 0.050000}
     hasSegmentScaleCompensation: false
   Children:
     - !<own> cf3e372d-f132-4025-9605-832741f22b60
@@ -11822,21 +11812,6 @@
   BlendNormals: false
   BlendShapes:
     {}
-- !<SceneObject/33bbcaa0-7369-477b-b879-c3218132e889>
-  PrefabRemaps:
-    []
-  Name: MidTip_to_Wrist
-  Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> bf24ce12-c696-47ee-b1d1-5d162588d5d5
 - !<ScriptComponent/34a68d79-ed15-429c-b782-c06be7166f00>
   PrefabRemaps:
     []
@@ -13685,9 +13660,9 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 7.734891, y: 3.349815, z: -3.304940}
-    rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 7.000000, y: 7.000000, z: 7.000000}
+    position: {x: 7.695670, y: 0.058050, z: -4.179167}
+    rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.350000, y: 0.350000, z: 0.350000}
     hasSegmentScaleCompensation: false
   Children:
     - !<own> 7031020e-9bbf-4f08-b81a-1d2fd66965ec
@@ -15146,21 +15121,6 @@
     - !<own> a84905c9-1804-4493-9228-8dcd6049d118
     - !<own> a8fb2aee-ae4a-47ea-9e91-0d80cfc55c32
     - !<own> fc3f0686-d103-443b-ba86-1aeb2ef19ed8
-- !<SceneObject/4135e129-0ed7-4631-96de-f9ecd319e9a7>
-  PrefabRemaps:
-    []
-  Name: RingTip_to_Wrist
-  Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 4f3f6481-0509-45b1-bade-15280e99bf5e
 - !<SceneObject/4158b7b9-4746-40a1-9332-fbc6b451dfd3>
   PrefabRemaps:
     []
@@ -16001,7 +15961,7 @@
       type: 1
       movementType: 0
       start: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      end: !<Vec3> {x: 20.000000, y: 20.000000, z: 20.000000}
+      end: !<Vec3> {x: 0.800000, y: 0.800000, z: 0.800000}
       from: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
       to: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
       offset: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -18130,40 +18090,6 @@
     - !<own> a822636f-d686-4dbf-a0ad-7942c3c6ad7c
     - !<own> cfa1ef62-59f3-42c8-9381-6d60e99d5554
     - !<own> 67bd823c-8f29-43d1-982a-c31d824526f2
-- !<ScriptComponent/4e557f4a-866f-416e-a50d-28d93dcf1aad>
-  PrefabRemaps:
-    []
-  Name: GetJointDistance
-  Enabled: true
-  ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
-  ScriptInputsDefault:
-    checkType: true
-    targetObject: true
-    maxDistance: true
-    sendTriggers: true
-    enterRangeTrigger: true
-    exitRangeTrigger: true
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      handType: 2
-      checkType: 0
-      jointGroupA: !<string[]>
-        - index-3
-      jointGroupB: !<string[]>
-        - mid-3
-      targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      visualizeDistance: true
-      checkDistance: true
-      minDistance: !<float> 3.000000
-      maxDistance: !<float> 100.000000
-      sendTriggers: false
-      enterRangeTrigger: ""
-      exitRangeTrigger: ""
-  ScriptTypes:
-    "":
-      {}
 - !<ScriptComponent/4e9c995b-5530-4948-9d92-aaf21ffd721b>
   PrefabRemaps:
     []
@@ -18318,40 +18244,6 @@
     - !<own> 8d00331e-d238-43da-853d-0654dd5020f8
   Components:
     []
-- !<ScriptComponent/4f3f6481-0509-45b1-bade-15280e99bf5e>
-  PrefabRemaps:
-    []
-  Name: GetJointDistance
-  Enabled: true
-  ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
-  ScriptInputsDefault:
-    checkType: true
-    targetObject: true
-    maxDistance: true
-    sendTriggers: true
-    enterRangeTrigger: true
-    exitRangeTrigger: true
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      handType: 2
-      checkType: 0
-      jointGroupA: !<string[]>
-        - ring-3
-      jointGroupB: !<string[]>
-        - wrist
-      targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      visualizeDistance: true
-      checkDistance: true
-      minDistance: !<float> 13.000000
-      maxDistance: !<float> 100.000000
-      sendTriggers: false
-      enterRangeTrigger: ""
-      exitRangeTrigger: ""
-  ScriptTypes:
-    "":
-      {}
 - !<SceneObject/4fa714fd-12d1-4d63-8d28-51eba6079dd2>
   PrefabRemaps:
     []
@@ -19811,7 +19703,7 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 5.185101, y: -4.316861, z: 0.000000}
+    position: {x: 5.015038, y: -6.917454, z: 0.000000}
     rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
@@ -20050,9 +19942,9 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 2.075925, y: 3.349815, z: 1.926266}
+    position: {x: 2.075925, y: 3.240664, z: 1.926265}
     rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 7.800000, y: 7.800000, z: 7.800000}
+    scale: {x: 0.060000, y: 0.060000, z: 0.060000}
     hasSegmentScaleCompensation: false
   Children:
     - !<own> 1bd1abcd-f012-4b39-a9c9-da66659851f5
@@ -21686,8 +21578,8 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> c512eeb2-b0ee-4275-a6ce-0770b57a90b7
-  Mesh: !<reference> 9540f9f5-53a8-4aa2-8475-db77d351f12b
+    - !<reference> 7f16d590-d31a-49f8-b74e-74f9a7c8291a
+  Mesh: !<reference> a71b0c62-2a5d-4243-bbdf-42e1c378a83d
   Skin: !<reference> 00000000-0000-0000-0000-000000000000
   BlendShapesEnabled: true
   BlendNormals: false
@@ -21763,21 +21655,6 @@
   ScriptTypes:
     "":
       {}
-- !<SceneObject/61b3e645-ef54-4ee9-87a3-d97acb6b578c>
-  PrefabRemaps:
-    []
-  Name: IndexTip_to_MidTip
-  Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 4e557f4a-866f-416e-a50d-28d93dcf1aad
 - !<ScriptComponent/634539de-bad9-4930-b274-57f9d60e220d>
   PrefabRemaps:
     []
@@ -23349,6 +23226,7 @@
     jointDistanceScripts: true
     showVisualizer: true
     setTextColor: true
+    gestureLostTrigger: true
     logMessage: true
   ScriptTypesDefault:
     {}
@@ -23364,8 +23242,8 @@
       defaultColor: !<Vec4> {x: 0.263508, y: 0.478065, z: 1.000000, w: 1.000000}
       passColor: !<Vec4> {x: 1.000000, y: 0.710979, z: 0.108049, w: 1.000000}
       sendTriggers: true
-      gestureDetectedTrigger: palm_open_r_start
-      gestureLostTrigger: palm_open_r_end
+      gestureDetectedTrigger: palm_close_start
+      gestureLostTrigger: ""
       logMessage: false
   ScriptTypes:
     "":
@@ -28014,11 +27892,11 @@
         - wrist
       jointGroupB: !<string[]>
         - pinky-3
-      targetObject: !<reference.SceneObject> f63abce6-0496-4b01-b5df-aba9a344e515
+      targetObject: !<reference.SceneObject> 00000000-0000-0065-0000-000000000064
       visualizeDistance: true
       checkDistance: true
       minDistance: !<float> 0.000000
-      maxDistance: !<float> 15.000000
+      maxDistance: !<float> 35.000000
       sendTriggers: false
       enterRangeTrigger: ""
       exitRangeTrigger: ""
@@ -28104,7 +27982,7 @@
       type: 1
       movementType: 0
       start: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      end: !<Vec3> {x: 20.000000, y: 20.000000, z: 20.000000}
+      end: !<Vec3> {x: 0.180000, y: 0.180000, z: 0.180000}
       from: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
       to: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
       offset: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -29420,40 +29298,6 @@
     []
   Components:
     - !<own> 650f31d9-3008-47ed-a8e5-aa3ae011f7fd
-- !<ScriptComponent/750e1403-7838-418a-92f5-377e1e84ba7a>
-  PrefabRemaps:
-    []
-  Name: GetJointDistance
-  Enabled: true
-  ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
-  ScriptInputsDefault:
-    checkType: true
-    targetObject: true
-    maxDistance: true
-    sendTriggers: true
-    enterRangeTrigger: true
-    exitRangeTrigger: true
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      handType: 2
-      checkType: 0
-      jointGroupA: !<string[]>
-        - pinky-3
-      jointGroupB: !<string[]>
-        - wrist
-      targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      visualizeDistance: true
-      checkDistance: true
-      minDistance: !<float> 11.000000
-      maxDistance: !<float> 100.000000
-      sendTriggers: false
-      enterRangeTrigger: ""
-      exitRangeTrigger: ""
-  ScriptTypes:
-    "":
-      {}
 - !<SceneObject/754eed3a-965f-4eec-85ce-e38cac768bf8>
   PrefabRemaps:
     []
@@ -32258,7 +32102,7 @@
   ShadowDensity: 1.000000
   Materials:
     - !<reference> 7a5c365f-7894-412f-b1d0-182b6b70fb55
-  Mesh: !<reference> a5798b2d-40f3-478e-98cc-b2f8d72d9d2e
+  Mesh: !<reference> 38ce9ddd-d408-46b5-b807-cc34cc54321d
   Skin: !<reference> 00000000-0000-0000-0000-000000000000
   BlendShapesEnabled: true
   BlendNormals: false
@@ -33132,7 +32976,7 @@
   ShadowDensity: 1.000000
   Materials:
     - !<reference> 49be9aa6-3d94-4f93-ae38-076677c7f70a
-  Mesh: !<reference> f445d126-4c3c-4d98-a251-462f942ff440
+  Mesh: !<reference> 9c98e9c0-6e3b-451b-b3ac-4896b05b952a
   Skin: !<reference> 00000000-0000-0000-0000-000000000000
   BlendShapesEnabled: true
   BlendNormals: false
@@ -33160,7 +33004,7 @@
   Enabled: true
   Shape: !<Sphere>
     FitVisual: false
-    Radius: 0.500000
+    Radius: 50.000000
   Matter: !<reference> 00000000-0000-0000-0000-000000000000
   Filter: !<reference> 00000000-0000-0000-0000-000000000000
   OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
@@ -34663,7 +34507,7 @@
   ScriptInputsDefault:
     checkType: true
     targetObject: true
-    maxDistance: true
+    minDistance: true
     sendTriggers: true
     enterRangeTrigger: true
     exitRangeTrigger: true
@@ -34671,17 +34515,17 @@
     {}
   ScriptInputs:
     "":
-      handType: 2
+      handType: 1
       checkType: 0
       jointGroupA: !<string[]>
         - index-3
       jointGroupB: !<string[]>
-        - wrist
+        - thumb-3
       targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       visualizeDistance: true
       checkDistance: true
-      minDistance: !<float> 13.000000
-      maxDistance: !<float> 100.000000
+      minDistance: !<float> 0.000000
+      maxDistance: !<float> 3.000000
       sendTriggers: false
       enterRangeTrigger: ""
       exitRangeTrigger: ""
@@ -35405,7 +35249,7 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 5.185101, y: -4.316861, z: 0.000000}
+    position: {x: 5.015038, y: -6.917454, z: 0.000000}
     rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
@@ -38388,8 +38232,8 @@
   Layers: 1
   LocalTransform:
     position: {x: 1.991842, y: 3.349815, z: -4.222444}
-    rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 7.000000, y: 7.000000, z: 7.000000}
+    rotation: {x: 121.133888, y: -0.000000, z: 0.000000}
+    scale: {x: 0.060000, y: 0.060000, z: 0.060000}
     hasSegmentScaleCompensation: false
   Children:
     - !<own> bcb5a7e9-943c-4b9a-a6c5-302f84a85104
@@ -38411,7 +38255,7 @@
   ShadowDensity: 1.000000
   Materials:
     - !<reference> 16bc9e8b-824f-4cd2-b5f7-b34bf5c9a450
-  Mesh: !<reference> 28674b44-baef-44e2-ab66-081458991ebb
+  Mesh: !<reference> 22acd2c2-12f6-4650-aa5c-d7885168e78b
   Skin: !<reference> 00000000-0000-0000-0000-000000000000
   BlendShapesEnabled: true
   BlendNormals: false
@@ -39137,7 +38981,7 @@
   ShadowDensity: 1.000000
   Materials:
     - !<reference> d0025468-2b7d-4da3-ba70-6ac44796fd52
-  Mesh: !<reference> 8608cf5b-8bb5-4373-9372-a0a36207d7be
+  Mesh: !<reference> d8870904-12d8-4f5f-872b-23c740c1c9c1
   Skin: !<reference> 00000000-0000-0000-0000-000000000000
   BlendShapesEnabled: true
   BlendNormals: false
@@ -40657,7 +40501,7 @@
   Enabled: true
   Shape: !<Sphere>
     FitVisual: false
-    Radius: 0.500000
+    Radius: 50.000000
   Matter: !<reference> 00000000-0000-0000-0000-000000000000
   Filter: !<reference> 00000000-0000-0000-0000-000000000000
   OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
@@ -40667,7 +40511,7 @@
   RotationTension: 30.000000
   ForceCompound: false
   Intangible: false
-  ShowCollider: false
+  ShowCollider: true
 - !<SceneObject/97dc4400-9457-41b5-a802-7c69b7bd2641>
   PrefabRemaps:
     []
@@ -42484,21 +42328,6 @@
   ForceCompound: false
   Intangible: false
   ShowCollider: false
-- !<SceneObject/a37b5b7a-b40e-4962-872a-37b71b501e5c>
-  PrefabRemaps:
-    []
-  Name: RingTip_to_PinkyTip
-  Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 18e738cf-c83f-4191-93c2-59fcb40a8b18
 - !<Text/a3e65c54-bbf8-40b0-9332-3037adcdbcf4>
   PrefabRemaps:
     []
@@ -43263,8 +43092,8 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 47.297596, y: 12.292595, z: -82.995842}
-    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    position: {x: 20.274483, y: 12.263157, z: -81.060440}
+    rotation: {x: 0.000000, y: -9.021862, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:
@@ -44050,8 +43879,8 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> 195038da-0941-4df5-b514-eb7495fdc5b7
-  Mesh: !<reference> a5798b2d-40f3-478e-98cc-b2f8d72d9d2e
+    - !<reference> d68f3813-b4cb-40d0-82f3-1374ac26b1cb
+  Mesh: !<reference> 38ce9ddd-d408-46b5-b807-cc34cc54321d
   Skin: !<reference> 00000000-0000-0000-0000-000000000000
   BlendShapesEnabled: true
   BlendNormals: false
@@ -47045,9 +46874,9 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 0.000000, y: -13.740531, z: -42.599274}
+    position: {x: -0.069391, y: -13.740531, z: -42.599274}
     rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 20.000000, y: 20.000000, z: 20.000000}
+    scale: {x: 0.180000, y: 0.180000, z: 0.180000}
     hasSegmentScaleCompensation: false
   Children:
     - !<own> c0f0012e-0425-4818-98d9-8d1a1b6552b0
@@ -47078,9 +46907,9 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: -3.444657, y: 3.349815, z: 0.726896}
-    rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 6.000000, y: 6.000000, z: 6.000000}
+    position: {x: -3.444656, y: 4.460013, z: 0.726895}
+    rotation: {x: -6.258368, y: 33.784172, z: -3.489651}
+    scale: {x: 3.740000, y: 3.740000, z: 3.740000}
     hasSegmentScaleCompensation: false
   Children:
     - !<own> 80fc6093-73ec-482d-aa66-d2fdf550aa71
@@ -47091,7 +46920,7 @@
 - !<SceneObject/af306ea2-22e4-4fd9-9a1f-937643c56654>
   PrefabRemaps:
     []
-  Name: IndexTip_to_Wrist
+  Name: IndexTip_to_ThumnTip
   Enabled: true
   Layers: 1
   LocalTransform:
@@ -48076,21 +47905,6 @@
   ScriptTypes:
     "":
       {}
-- !<SceneObject/b5650e40-bc28-43c4-9826-9b48cdd16e25>
-  PrefabRemaps:
-    []
-  Name: Wrist_to_Head
-  Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> d0289c6e-165d-44cf-abd5-c913ca64190f
 - !<ScriptComponent/b56677c5-2410-4a34-b5bb-6b126df9dd62>
   PrefabRemaps:
     []
@@ -48951,40 +48765,6 @@
   ScriptTypes:
     "":
       {}
-- !<ScriptComponent/b6309b45-b82a-454c-ad31-e4b3a8bea035>
-  PrefabRemaps:
-    []
-  Name: GetJointDistance
-  Enabled: true
-  ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
-  ScriptInputsDefault:
-    checkType: true
-    targetObject: true
-    maxDistance: true
-    sendTriggers: true
-    enterRangeTrigger: true
-    exitRangeTrigger: true
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      handType: 2
-      checkType: 0
-      jointGroupA: !<string[]>
-        - mid-3
-      jointGroupB: !<string[]>
-        - ring-3
-      targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      visualizeDistance: true
-      checkDistance: true
-      minDistance: !<float> 3.000000
-      maxDistance: !<float> 100.000000
-      sendTriggers: false
-      enterRangeTrigger: ""
-      exitRangeTrigger: ""
-  ScriptTypes:
-    "":
-      {}
 - !<SceneObject/b6603e21-bc79-44bb-ae40-4ccdc832017e>
   PrefabRemaps:
     []
@@ -49796,9 +49576,9 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 0.000000, y: -13.740531, z: -42.599274}
+    position: {x: 0.115435, y: -13.740531, z: -42.599274}
     rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 20.000000, y: 20.000000, z: 20.000000}
+    scale: {x: 0.180000, y: 0.180000, z: 0.180000}
     hasSegmentScaleCompensation: false
   Children:
     - !<own> 677b5a52-79c4-41d4-814e-00b35917f5cd
@@ -50530,9 +50310,9 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 0.000000, y: -13.740531, z: -42.599274}
-    rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 20.000000, y: 20.000000, z: 20.000000}
+    position: {x: 0.000000, y: -14.726727, z: -42.599274}
+    rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.800000, y: 0.800000, z: 0.800000}
     hasSegmentScaleCompensation: false
   Children:
     - !<own> 33633cc7-7e03-44a4-abc2-78fc77a49d3d
@@ -51472,7 +51252,7 @@
   MeshShadowMode: None
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
-  Text: In n Out
+  Text: Dance Mural
   Editable: false
   ShowEditingPreview: true
   TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
@@ -51488,7 +51268,7 @@
   OverflowHorizontal: Overflow
   Fill: !<TextFill>
     Mode: Solid
-    Color: {x: 1.000000, y: 0.945098, z: 0.635294, w: 1.000000}
+    Color: {x: 0.654902, y: 0.972549, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
@@ -51766,7 +51546,7 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 5.185131, y: -4.316861, z: 0.000000}
+    position: {x: 5.015068, y: -6.917454, z: 0.000000}
     rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
@@ -52474,40 +52254,6 @@
     - !<own> 0c610f8b-d091-46cb-9239-b73733ae1d3f
   Components:
     []
-- !<ScriptComponent/bf24ce12-c696-47ee-b1d1-5d162588d5d5>
-  PrefabRemaps:
-    []
-  Name: GetJointDistance
-  Enabled: true
-  ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
-  ScriptInputsDefault:
-    checkType: true
-    targetObject: true
-    maxDistance: true
-    sendTriggers: true
-    enterRangeTrigger: true
-    exitRangeTrigger: true
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      handType: 2
-      checkType: 0
-      jointGroupA: !<string[]>
-        - mid-3
-      jointGroupB: !<string[]>
-        - wrist
-      targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      visualizeDistance: true
-      checkDistance: true
-      minDistance: !<float> 14.000000
-      maxDistance: !<float> 100.000000
-      sendTriggers: false
-      enterRangeTrigger: ""
-      exitRangeTrigger: ""
-  ScriptTypes:
-    "":
-      {}
 - !<SceneObject/bf35eadf-9585-4120-bbe0-4392fbf9fe2a>
   PrefabRemaps:
     []
@@ -54750,7 +54496,7 @@
   MeshShadowMode: None
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
-  Text: Jacaranda
+  Text: Pegasus
   Editable: false
   ShowEditingPreview: true
   TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
@@ -54766,7 +54512,7 @@
   OverflowHorizontal: Overflow
   Fill: !<TextFill>
     Mode: Solid
-    Color: {x: 1.000000, y: 0.945098, z: 0.635294, w: 1.000000}
+    Color: {x: 0.654902, y: 0.972549, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
@@ -57952,7 +57698,7 @@
       type: 1
       movementType: 0
       start: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      end: !<Vec3> {x: 20.000000, y: 20.000000, z: 20.000000}
+      end: !<Vec3> {x: 0.100000, y: 0.100000, z: 0.100000}
       from: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
       to: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
       offset: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -57982,38 +57728,6 @@
     - !<own> 963197e7-4e67-4945-9c1a-0ec7675ad474
     - !<own> 178d08ef-f90a-46b6-873d-7d755c80da42
     - !<own> 58732a8a-f7d4-4ffd-8939-f9c59307afb9
-- !<ScriptComponent/d0289c6e-165d-44cf-abd5-c913ca64190f>
-  PrefabRemaps:
-    []
-  Name: GetJointDistance
-  Enabled: true
-  ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
-  ScriptInputsDefault:
-    minDistance: true
-    sendTriggers: true
-    enterRangeTrigger: true
-    exitRangeTrigger: true
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      handType: 2
-      checkType: 1
-      jointGroupA: !<string[]>
-        - wrist
-      jointGroupB: !<string[]>
-        - pinky-3
-      targetObject: !<reference.SceneObject> 00000000-0000-0065-0000-000000000064
-      visualizeDistance: true
-      checkDistance: true
-      minDistance: !<float> 0.000000
-      maxDistance: !<float> 45.000000
-      sendTriggers: false
-      enterRangeTrigger: ""
-      exitRangeTrigger: ""
-  ScriptTypes:
-    "":
-      {}
 - !<SceneObject/d0828e94-0009-40b0-9b1e-224126c9e87d>
   PrefabRemaps:
     []
@@ -59399,7 +59113,7 @@
       type: 1
       movementType: 0
       start: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      end: !<Vec3> {x: 20.000000, y: 20.000000, z: 20.000000}
+      end: !<Vec3> {x: 10.000000, y: 10.000000, z: 10.000000}
       from: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
       to: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
       offset: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -60916,21 +60630,6 @@
     - !<own> a5ba193b-ed83-463e-9be8-9aaf1a245c06
     - !<own> 91876660-b819-4d60-8a77-26d6e7cd5323
     - !<own> 693b3f90-9c1a-4238-b592-2a8e3602ded6
-- !<SceneObject/d486b1e8-d0e1-42a6-b10e-65f652091921>
-  PrefabRemaps:
-    []
-  Name: ThumbTip_to_Wrist
-  Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> e42f65f5-daf0-482c-be85-03c36d2443e2
 - !<SceneObject/d4e4bf56-fa5e-4e5f-a300-f3d93779c106>
   PrefabRemaps:
     []
@@ -61683,8 +61382,8 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> 87324bf5-bbb3-42ef-a99b-23c174abb569
-  Mesh: !<reference> 8608cf5b-8bb5-4373-9372-a0a36207d7be
+    - !<reference> cb795363-fac3-49c7-86a7-0d97cd1b8ebf
+  Mesh: !<reference> d8870904-12d8-4f5f-872b-23c740c1c9c1
   Skin: !<reference> 00000000-0000-0000-0000-000000000000
   BlendShapesEnabled: true
   BlendNormals: false
@@ -63483,7 +63182,7 @@
   MeshShadowMode: None
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
-  Text: 1967 Trader Joes
+  Text: Tuxedo
   Editable: false
   ShowEditingPreview: true
   TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
@@ -63499,7 +63198,7 @@
   OverflowHorizontal: Overflow
   Fill: !<TextFill>
     Mode: Solid
-    Color: {x: 1.000000, y: 0.945098, z: 0.635294, w: 1.000000}
+    Color: {x: 0.654902, y: 0.972549, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
@@ -64340,21 +64039,6 @@
     []
   Components:
     - !<own> fa16bd64-1bd0-448b-b26e-4f6f42c12810
-- !<SceneObject/e198a53e-aae8-42c8-8c6a-ca8d2a9dfc5c>
-  PrefabRemaps:
-    []
-  Name: PinkyTip_to_Wrist
-  Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 750e1403-7838-418a-92f5-377e1e84ba7a
 - !<ScriptComponent/e1a6e53f-91ed-485a-9ae9-b76a2570de98>
   PrefabRemaps:
     []
@@ -65129,7 +64813,7 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> c513cf47-e7dd-4ac4-ac76-3396c0481df2
+    - !<reference> 85aa0cba-c20d-4ee4-899f-e64f6a0078dc
   Mesh: !<reference> 22acd2c2-12f6-4650-aa5c-d7885168e78b
   Skin: !<reference> 00000000-0000-0000-0000-000000000000
   BlendShapesEnabled: true
@@ -65204,40 +64888,6 @@
       vfxScriptName: baseColor
       easingFunction: Quadratic
       easingType: Out
-  ScriptTypes:
-    "":
-      {}
-- !<ScriptComponent/e42f65f5-daf0-482c-be85-03c36d2443e2>
-  PrefabRemaps:
-    []
-  Name: GetJointDistance
-  Enabled: true
-  ScriptAsset: !<reference> 1eb40896-318d-4f06-b675-881932129494
-  ScriptInputsDefault:
-    checkType: true
-    targetObject: true
-    maxDistance: true
-    sendTriggers: true
-    enterRangeTrigger: true
-    exitRangeTrigger: true
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      handType: 2
-      checkType: 0
-      jointGroupA: !<string[]>
-        - thumb-3
-      jointGroupB: !<string[]>
-        - wrist
-      targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      visualizeDistance: true
-      checkDistance: true
-      minDistance: !<float> 10.000000
-      maxDistance: !<float> 100.000000
-      sendTriggers: false
-      enterRangeTrigger: ""
-      exitRangeTrigger: ""
   ScriptTypes:
     "":
       {}
@@ -66007,7 +65657,7 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 5.185101, y: -4.316861, z: 0.000000}
+    position: {x: 5.015038, y: -6.917454, z: 0.000000}
     rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
@@ -66795,21 +66445,6 @@
     - !<own> 91a81d37-7972-4a9f-b8fc-dc2321712e30
   Components:
     []
-- !<SceneObject/ea951a52-1558-4b89-9822-d89a8aaa583a>
-  PrefabRemaps:
-    []
-  Name: MidTip_to_RingTip
-  Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> b6309b45-b82a-454c-ad31-e4b3a8bea035
 - !<ScriptComponent/eacea7c0-e269-4f26-b36d-ce1ca860eb12>
   PrefabRemaps:
     []
@@ -68810,7 +68445,7 @@
   MeshShadowMode: None
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
-  Text: Big Bang Theory
+  Text: Mabel Lee
   Editable: false
   ShowEditingPreview: true
   TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
@@ -68826,7 +68461,7 @@
   OverflowHorizontal: Overflow
   Fill: !<TextFill>
     Mode: Solid
-    Color: {x: 1.000000, y: 0.945098, z: 0.635294, w: 1.000000}
+    Color: {x: 0.654902, y: 0.972549, z: 1.000000, w: 1.000000}
     Texture: !<reference> 00000000-0000-0000-0000-000000000000
     TileCount: 5.000000
     TileZone: Rect
@@ -69865,7 +69500,7 @@
   PrefabRemaps:
     []
   Name: OpenPalmNear
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: -17.998428, y: -8.697634, z: 42.682487}
@@ -71272,7 +70907,7 @@
   RotationTension: 30.000000
   ForceCompound: false
   Intangible: false
-  ShowCollider: true
+  ShowCollider: false
 - !<SceneObject/f972fc27-c16e-493a-bbd2-6185be1f4bed>
   PrefabRemaps:
     []
