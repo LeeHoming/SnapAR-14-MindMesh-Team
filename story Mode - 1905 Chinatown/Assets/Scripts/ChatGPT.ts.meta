@@ -1,0 +1,91 @@
+- !<AssetImportMetadata/93b0c8a9-a66a-44bf-99c7-a14b58aedfab>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> d5ef2a51-66a4-4fda-93c0-d094de949e4b
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> d5ef2a51-66a4-4fda-93c0-d094de949e4b
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 9aee72c5-d95e-4bc5-a11a-035b40fb5bc9
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/9aee72c5-d95e-4bc5-a11a-035b40fb5bc9>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 0126e002-9405-4608-ba6d-aa34818431f6
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    Camera: false
+    SpawnCenter: false
+    hintTexts: false
+    isStoryMode: false
+    isUnviel: false
+    keyText0: false
+    keyText1: false
+    keyText2: false
+    keyText3: false
+    keyText4: false
+    keywords: false
+    openAIKey: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - openAIKey: ""
+      keyText0: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      keyText1: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      keyText2: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      keyText3: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      keyText4: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      keywords: !<string[]>
+        - ""
+        - " "
+        - " "
+        - " "
+        - " "
+      isUnviel: false
+      isStoryMode: false
+      hintTexts: !<string[]>
+        - ""
+        - " "
+        - " "
+        - " "
+        - " "
+      SpawnCenter: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      Camera: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"ChatGPT Scavenger Hunt Component"}'
+    - // @input string openAIKey
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"Text Components"}'
+    - // @input Component.Text keyText0
+    - // @input Component.Text keyText1
+    - // @input Component.Text keyText2
+    - // @input Component.Text keyText3
+    - // @input Component.Text keyText4
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Keywords and Hints"}'
+    - '// @input string[] keywords = "{\"\", \" \", \" \", \" \", \" \"}" {"hint":"Set the keywords to be used in the scavenger hunt. These will be used to check if the image contains them."}'
+    - '// @input bool isUnviel {"hint":"Set this to true to enable the unvieling of keywords."}'
+    - '// @input bool isStoryMode {"hint":"Set this to true to enable the story mode of keywords. this will viel the keywords in sequence and tell a story about them."}'
+    - '// @input string[] hintTexts = "{\"\", \" \", \" \", \" \", \" \"}" {"hint":"Set the hints for each keyword. If story mode is enabled, these will be used to tell a story about the keywords.", "showIf":"isStoryMode", "showIfValue":true}'
+    - '// @input SceneObject SpawnCenter {"showIf":"isStoryMode", "showIfValue":true}'
+    - '// @input SceneObject Camera {"showIf":"isStoryMode", "showIfValue":true}'
+    - '// @ui {"widget":"group_end"}'
+  SetupScript:
+    code: ""
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

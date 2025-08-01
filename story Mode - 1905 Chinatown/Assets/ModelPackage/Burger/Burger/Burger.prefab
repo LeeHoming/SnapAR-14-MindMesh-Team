@@ -1,0 +1,95 @@
+- !<ObjectPrefab/44c0fbed-4201-4cbb-b3bf-66bbd9f5cddc>
+  PackagePath: ""
+  objects:
+    - !<own> 3b20e1b7-ebff-47fb-ba0b-789cacda9b52
+  LazyLoading: false
+  RetainAssets: true
+- !<AnimationPlayer/0d5ebe97-c291-4e13-a784-ec2348a5ba35>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    []
+- !<SceneObject/3b20e1b7-ebff-47fb-ba0b-789cacda9b52>
+  PrefabRemaps:
+    []
+  Name: Burger
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> d3f5938c-e4e2-4110-9f3c-7ba727737ab0
+  Components:
+    []
+- !<RenderMeshVisual/ab07fe8e-8256-49e4-ae70-9eeeaa71e18c>
+  PrefabRemaps:
+    []
+  Name: model
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c512eeb2-b0ee-4275-a6ce-0770b57a90b7
+  Mesh: !<reference> 9540f9f5-53a8-4aa2-8475-db77d351f12b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/c761d41e-6d79-4471-b4a3-7a30440b2aa1>
+  PrefabRemaps:
+    []
+  Name: model
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 90.000023, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ab07fe8e-8256-49e4-ae70-9eeeaa71e18c
+- !<SceneObject/d3f5938c-e4e2-4110-9f3c-7ba727737ab0>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> f838b8a0-199d-4b7b-9276-30177068a23a
+  Components:
+    []
+- !<SceneObject/f838b8a0-199d-4b7b-9276-30177068a23a>
+  PrefabRemaps:
+    []
+  Name: Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> c761d41e-6d79-4471-b4a3-7a30440b2aa1
+  Components:
+    - !<own> 0d5ebe97-c291-4e13-a784-ec2348a5ba35

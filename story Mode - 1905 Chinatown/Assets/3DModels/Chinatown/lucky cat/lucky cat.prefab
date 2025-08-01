@@ -1,0 +1,56 @@
+- !<ObjectPrefab/5d40e1b8-dd78-42c8-bea8-55f1297769f1>
+  PackagePath: ""
+  objects:
+    - !<own> 8ea97055-f631-4723-9c35-177f72abf2b9
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/316396ca-cc41-4687-8e40-bb76aabef18a>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> cb795363-fac3-49c7-86a7-0d97cd1b8ebf
+  Mesh: !<reference> d8870904-12d8-4f5f-872b-23c740c1c9c1
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/8c50a722-030a-4769-93d4-62a6805b817b>
+  PrefabRemaps:
+    []
+  Name: texture_pbr_v128.001
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 316396ca-cc41-4687-8e40-bb76aabef18a
+- !<SceneObject/8ea97055-f631-4723-9c35-177f72abf2b9>
+  PrefabRemaps:
+    []
+  Name: lucky cat
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8c50a722-030a-4769-93d4-62a6805b817b
+  Components:
+    []

@@ -1,0 +1,40 @@
+- !<AssetImportMetadata/18d63c98-6efb-4feb-98cb-dd1622390f69>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> b48e3ed9-811c-49db-9a8e-eaaacfaf2152
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> b48e3ed9-811c-49db-9a8e-eaaacfaf2152
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 90896435-3394-4b37-8072-e701cd55cab8
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/90896435-3394-4b37-8072-e701cd55cab8>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 4d7ba10e-ec0f-404f-bcd1-47e4ea2cc537
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    triggerPrefix: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - triggerPrefix: find_keyword_
+  ScriptTypes:
+    -
+      {}

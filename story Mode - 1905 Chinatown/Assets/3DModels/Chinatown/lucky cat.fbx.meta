@@ -1,0 +1,118 @@
+- !<AssetImportMetadata/e1d5b167-3f74-4d09-a0bd-e28b527b1125>
+  ImportedAssetIds:
+    .hidden/Material.003: !<reference> fc80c484-26cd-406d-a645-7c8e270f74ba
+    .hidden/white: !<reference> 54ad20ed-4b53-40ae-ad58-318225a59a48
+    2a06f5400f85c4b3: !<reference> 316396ca-cc41-4687-8e40-bb76aabef18a
+    7a0dd5cd69df73fa: !<reference> 8ea97055-f631-4723-9c35-177f72abf2b9
+    Materials/Material.003: !<reference> cb795363-fac3-49c7-86a7-0d97cd1b8ebf
+    Materials/Material.003|Material.003|GraphPassInfo: !<reference> aa6c9ce9-e3ee-47f1-989d-a43922ada4d0
+    Meshes/texture_pbr_v128.001: !<reference> d8870904-12d8-4f5f-872b-23c740c1c9c1
+    Scene: !<reference> 5d40e1b8-dd78-42c8-bea8-55f1297769f1
+    Textures/texture_pbr_v128: !<reference> 21f9ec69-e4d2-4a3d-8a70-a4d8a7c9fbd0
+    Textures/texture_pbr_v128_normal: !<reference> cfe904d9-e930-43f1-be22-cab68eab1203
+    ee5a5e56d58fe591: !<reference> 8c50a722-030a-4769-93d4-62a6805b817b
+  ImporterName: FbxImporter
+  PrimaryAsset: !<reference> 5d40e1b8-dd78-42c8-bea8-55f1297769f1
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 120e25d2-1b11-4e78-873c-0515a2f67da1
+  DependentFiles:
+    []
+  ImporterSettings: !<FbxImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangentsAndBinormals: true
+    RegenerateTangentsAndBinormals: false
+    RegenerateNormalsForSkinnedMeshes: true
+    ImportBlendShapeAnimation: true
+    ImportVertexAnimation: true
+    GeneratePivots: true
+    TriangulateNURBS: true
+    UseLegacyFbxLoader: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionMipmapSettings>
+          Level: Medium
+          Mipmap: false
+    ExtensionMappings:
+      mesh: None Compression
+      png: Performance Compression
+      jpg: Performance Compression
+    Overrides:
+      {}
+- !<SceneObject/062703fb-9446-4cc3-bb15-9e51cbf4f6a6>
+  PrefabRemaps:
+    []
+  Name: lucky cat
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6ce4b34d-89a8-4d7c-bbcd-bc5c4cde53d3
+  Components:
+    []
+- !<ObjectPrefabAssetData/120e25d2-1b11-4e78-873c-0515a2f67da1>
+  SourceRemaps:
+    - 316396ca-cc41-4687-8e40-bb76aabef18a: b3bc820a-c624-47a1-a919-82415ef5fa6e
+    - 5d40e1b8-dd78-42c8-bea8-55f1297769f1: 3747c976-0ddd-4756-953f-9ca20db0069b
+    - 8c50a722-030a-4769-93d4-62a6805b817b: 6ce4b34d-89a8-4d7c-bbcd-bc5c4cde53d3
+    - 8ea97055-f631-4723-9c35-177f72abf2b9: 062703fb-9446-4cc3-bb15-9e51cbf4f6a6
+  SourceState: !<own> 3747c976-0ddd-4756-953f-9ca20db0069b
+- !<ObjectPrefab/3747c976-0ddd-4756-953f-9ca20db0069b>
+  PackagePath: ""
+  objects:
+    - !<own> 062703fb-9446-4cc3-bb15-9e51cbf4f6a6
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/6ce4b34d-89a8-4d7c-bbcd-bc5c4cde53d3>
+  PrefabRemaps:
+    []
+  Name: texture_pbr_v128.001
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b3bc820a-c624-47a1-a919-82415ef5fa6e
+- !<RenderMeshVisual/b3bc820a-c624-47a1-a919-82415ef5fa6e>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> cb795363-fac3-49c7-86a7-0d97cd1b8ebf
+  Mesh: !<reference> d8870904-12d8-4f5f-872b-23c740c1c9c1
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
